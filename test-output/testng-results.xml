@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Initialize the chrome browser (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Navigate to &quot;http:&#x2F;&#x2F;www.qaclickacademy.com&#x2F;&quot; (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click on Login to land on Home Page (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User enter test99@gmail.com and 123456 (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that user successfully logged In. (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Initialize the chrome browser (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Navigate to &quot;http:&#x2F;&#x2F;www.qaclickacademy.com&#x2F;&quot; (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click on Login to land on Home Page (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User enter test123@gmail.com and 11111 (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that user successfully logged In. (PASSED : 2s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40064" started-at="2020-06-28T16:15:28 IST" finished-at="2020-06-28T16:16:08 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@61009542]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Validating user login" duration-ms="40064" started-at="2020-06-28T16:15:28 IST" finished-at="2020-06-28T16:16:08 IST">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@61009542]" name="setUpClass" is-config="true" duration-ms="530" started-at="2020-06-28T16:15:28 IST" finished-at="2020-06-28T16:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@61009542]" name="runScenario" duration-ms="22000" started-at="2020-06-28T16:15:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-28T16:15:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive scenario Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[": Login into Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Initialize the chrome browser (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Navigate to &quot;http:&#x2F;&#x2F;www.qaclickacademy.com&#x2F;&quot; (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click on Login to land on Home Page (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User enter test99@gmail.com and 123456 (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that user successfully logged In. (PASSED : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@61009542]" name="runScenario" duration-ms="17414" started-at="2020-06-28T16:15:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-28T16:16:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive scenario Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[": Login into Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Initialize the chrome browser (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Navigate to &quot;http:&#x2F;&#x2F;www.qaclickacademy.com&#x2F;&quot; (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Click on Login to land on Home Page (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User enter test123@gmail.com and 11111 (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify that user successfully logged In. (PASSED : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@61009542]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2020-06-28T16:16:08 IST" finished-at="2020-06-28T16:16:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Validating user login -->
+  </suite> <!-- Suite -->
+</testng-results>
